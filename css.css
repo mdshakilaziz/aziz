@@ -1,0 +1,174 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  height: 2000px;
+}
+.clearall::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.text-center{
+  text-align: center;
+}
+img{
+  max-width: 100%;
+}
+.full{
+  width: 850px;
+  margin: auto;
+
+}
+
+.hader{
+  background-color: gold;
+}
+.hader-lift{
+     float: left;
+     width: 30%;
+}
+.hader-lift img{
+    width: 110px;
+    height: auto;
+}
+.hader-right{
+      float: right;
+      width: 70%;
+}
+
+.hader-right{}
+.hader-right ul{
+  text-align: right;
+}
+.hader-right ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.hader-right ul li a{
+  color: white;
+  font-size: 20px;
+  padding: 0px 30px;
+  display: block;
+  text-decoration: none;
+  line-height: 40px;
+  border-right: 2px solid black;
+  transition: .5s;
+}
+.hader-right ul li:first-child a{
+  border-left: 2px solid black;
+}
+.hader-right ul li a:hover{
+  background-color: chartreuse;
+}
+
+.banar{
+  background-image:url(https://akm-img-a-in.tosshub.com/indiatoday/images/story/202003/pexels-photo-3826682_0.jpeg?ejuXtiovaZ6ymDj5X28SGGtlydO3NSur&size=770:433);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 433px;
+}
+.banar-opsan{
+   padding-top:216px ;
+}
+.banar-opsan h1{
+  color: white;
+  font-size: 30px;
+  background-color:black;
+  display: inline-block;
+  padding:10px 20px;
+  border-radius:10px;
+}    
+.banar-opsan h2{
+  color: white;
+  font-size: 20px;
+  background-color:rgb(12, 136, 19);
+  width: 150px;
+  margin: auto;
+  padding:10px 20px;
+  border-radius:10px;
+}
+
+.about{
+  text-align: center;
+  background-color: #c8d6e5;
+}
+.about-site h1{
+  color: white;
+  background-color: #54a0ff;
+  display: inline-block;
+  padding: 5px 50px;
+  border-radius:10px 20px;
+}
+.about-site p{
+       font-size: 30px;
+       font-family: 'Crimson Text', serif;
+}
+
+
+.services{
+  background-color:#dcdde1 ;
+  padding-top: 20px;
+  line-height: 1;
+}
+.services-istil{
+  float: left;
+  width: 31%;
+  text-align: center;
+  border: 1px solid black;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.services-istil samp{
+    height: 60px;
+    width: 60px;
+    background-color: red;
+    display: inline-block;
+    margin: auto;
+    font-size: 50px;
+    color: white;
+    line-height: 1;
+}
+
+.content{
+  padding-top: 10px;
+  background-color: wheat;
+  
+}
+.content-lift{
+  float: left;
+  width: 70%;
+ 
+}
+.content-right{
+  float: right;
+  width: 25%;
+}
+.content-right ul{
+  list-style: none;
+}
+.content-right ul li{
+  color:white;
+  background-color: tomato;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+.content-lift .img-1{
+  float: left;
+  padding: 10px;
+  width: 118px;
+}
+.content-lift .img-1 p{
+  padding-top: 10px;
+  font-size: 15px;
+}
+.content-right .notec h1{
+  text-align:left;
+  font-size: 30px;
+  background-color:
+}
